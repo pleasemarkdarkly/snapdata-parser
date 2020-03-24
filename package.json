@@ -1,0 +1,33 @@
+{
+  "name": "snapdata-parser-cli",
+  "version": "0.0.8",
+  "description": "Convert Snapdata txt files to csv.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "cli-table": "^0.3.1",
+    "command-line-args": "^5.1.1",
+    "commander": "^5.0.0",
+    "csv-writer": "^1.6.0",
+    "event-stream": "^4.0.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pleasemarkdarkly/snapdata-parser.git"
+  },
+  "keywords": [
+    "Snapdata",
+    "Parsing",
+    "Excel",
+    "Contacts"
+  ],
+  "bugs": {
+    "url": "https://github.com/pleasemarkdarkly/snapdata-parser/issues"
+  },
+  "homepage": "https://github.com/pleasemarkdarkly/snapdata-parser#readme"
+}
